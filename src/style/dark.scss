@@ -1,13 +1,17 @@
 .app.dark {
-  background-color: #111;
+  background-color: #000000;
   color: rgb(156, 156, 156);
+
+  .home {
+    background-color: #000000;
+  }
 
   .chartGrid {
     stroke: rgba(228, 228, 228, 0.219);
   }
 
   .table {
-    background-color: #111;
+    background-color: #000000;
 
     .tableCell {
       color: gray;
@@ -17,6 +21,7 @@
   .navbar {
     color: #999;
     border-color: #333;
+    background-color: #000000;
 
     .search {
       border-color: gray;
@@ -24,7 +29,7 @@
   }
 
   .sidebar {
-    background-color: #111;
+    background-color: #000000;
     border-color: #333;
 
     .top {
